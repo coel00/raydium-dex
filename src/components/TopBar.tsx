@@ -35,7 +35,7 @@ const MENU = [
   },
   {
     'title': 'Twitter',
-    'link': 'hhttps://twitter.com/BuffSamo',
+    'link': 'https://twitter.com/BuffSamo',
   },
   {
     'title': 'Discord',
