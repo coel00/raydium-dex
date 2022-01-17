@@ -750,6 +750,12 @@ export const TOKENS: Tokens = {
     mintAddress: '9nEqaUcb16sQ3Tn1psbkWqyhPdLmfHWjKGymREjsAgTE',
     decimals: 6,
   },
+  BSAMO: {
+    symbol: 'BSAMO',
+    name: 'BUFF SAMO',
+    mintAddress: '2XSuy8RSESbtYRBbVHxGWuoikn3B6iXKVKzN4i3owTCf',
+    decimals: 9,
+  },
   ORCA: {
     symbol: 'ORCA',
     name: 'ORCA',

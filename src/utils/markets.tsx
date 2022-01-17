@@ -994,6 +994,12 @@ const _MARKETS = [
     address: new PublicKey('E3cNotFPoECwQvacT2D7u3C3tKRkGtUxv8WFYazBEx4X'),
     programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
   },
+  {
+    name: 'BSAMO/USDC',
+    deprecated: false,
+    address: new PublicKey('AohqcP9t8y9ttheks7PWWf41ny3Zahy3WLF7mNLBuUHJ'),
+    programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
+  },
   // ...MARKETS,
 ];
 
@@ -1147,7 +1153,7 @@ const _SLOW_REFRESH_INTERVAL_NEW = 60 * 1000;
 const _FAST_REFRESH_INTERVAL = 1000;
 
 export const DEFAULT_MARKET = USE_MARKETS.find(
-  ({ name, deprecated }) => name === 'RAY/USDT' && !deprecated,
+  ({ name, deprecated }) => name === 'BSAMO/USDC' && !deprecated,
 );
 
 export function getMarketDetails(
@@ -1221,7 +1227,7 @@ export function MarketProvider({ marketAddress, setMarketAddress, children }) {
 
   const [market, setMarket] = useState<Market | null>();
 
-  const [marketName, setMarketName] = useState('RAY/USDT');
+  const [marketName, setMarketName] = useState('BSAMO/USDC');
 
   // Replace existing market with a non-deprecated one on first load
   useEffect(() => {

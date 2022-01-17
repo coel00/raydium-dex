@@ -34,49 +34,25 @@ const MENU = [
     'link': '/',
   },
   {
-    'title': 'Swap',
-    'link': 'https://raydium.io/swap/',
+    'title': 'Twitter',
+    'link': 'hhttps://twitter.com/BuffSamo',
   },
   {
-    'title': 'Liquidity',
-    'link': 'https://raydium.io/liquidity/',
+    'title': 'Discord',
+    'link': 'https://discord.com/invite/buffsamo',
   },
   {
-    'title': 'Pools',
-    'link': 'https://raydium.io/pools/',
-  },
-  {
-    'title': 'Farms',
-    'link': 'https://raydium.io/farms/',
-  },
-  {
-    'title': 'Staking',
-    'link': 'https://raydium.io/staking/',
-  },
-  {
-    'title': 'AcceleRaytor',
-    'link': 'https://raydium.io/acceleRaytor/',
-  },
-  {
-    'title': 'DropZone',
-    'link': 'https://dropzone.raydium.io/',
-  },
-  {
-    'title': 'NFTs',
+    'title': 'Solana',
     'child': [
       {
-        'title': 'Browse NFTs',
-        'link': 'https://nft.raydium.io/marketplace'
+        'title': 'Explorer Solana',
+        'link': 'https://explorer.solana.com/address/2XSuy8RSESbtYRBbVHxGWuoikn3B6iXKVKzN4i3owTCf'
       },
       {
-        'title': 'Explore Collections',
-        'link': 'https://nft.raydium.io/collections'
+        'title': 'Explore Solscan',
+        'link': 'https://https://solscan.io/token/2XSuy8RSESbtYRBbVHxGWuoikn3B6iXKVKzN4i3owTCf'
       },
     ]
-  },
-  {
-    'title': 'Migrate',
-    'link': 'https://raydium.io/migrate/',
   },
   
 ]
