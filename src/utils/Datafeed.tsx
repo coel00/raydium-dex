@@ -207,7 +207,7 @@ const makeDataFeed = () => {
           symbol: item.name,
           full_name: item.name,
           description: item.name,
-          exchange: 'Raydium',
+          exchange: 'Buff Samo',
           params: [],
           type: 'spot',
           ticker: item.name

@@ -83,7 +83,7 @@ function TradePageInner() {
   });
 
   useEffect(() => {
-    document.title = marketName ? `${marketName} — Raydium` : 'Raydium';
+    document.title = marketName ? `${marketName} — BUFF SAMO` : 'BUFF SAMO DEX';
   }, [marketName]);
 
   const changeOrderRef = useRef<
