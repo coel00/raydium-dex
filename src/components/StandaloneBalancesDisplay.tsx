@@ -223,7 +223,7 @@ export default function StandaloneBalancesDisplay() {
           DEX
         </div>
         <a
-          href={'dex.buffsamo.tech'}
+          href={'/#/market/AohqcP9t8y9ttheks7PWWf41ny3Zahy3WLF7mNLBuUHJ'}
           target="_blank"
           rel="noopener noreferrer"
           style={{ color : 'rgb(173,175,184)',}}
