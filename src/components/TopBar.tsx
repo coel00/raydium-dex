@@ -50,7 +50,7 @@ const MENU = [
       },
       {
         'title': 'Explore Solscan',
-        'link': 'https://https://solscan.io/token/2XSuy8RSESbtYRBbVHxGWuoikn3B6iXKVKzN4i3owTCf'
+        'link': 'https://solscan.io/token/2XSuy8RSESbtYRBbVHxGWuoikn3B6iXKVKzN4i3owTCf'
       },
     ]
   },
